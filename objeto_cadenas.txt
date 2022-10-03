@@ -1,0 +1,47 @@
+
+class cadenas {
+
+var cadea : String
+var letra : String
+
+init(cadea: String,letra : String){
+    
+    
+    self.cadea = cadea
+    self.letra = letra
+
+    
+}
+
+func  eliminaletras(letra : String)->String{
+    
+    return "en costruccion este metodo"
+    
+    
+    
+    
+    
+}
+
+
+
+func sublen( ) -> Int {
+    
+  var cadi : Int = 0
+  
+    for caracter in cadea {
+
+    cadi=cadi + 1
+    
+    }
+
+    return  cadi
+ 
+}
+
+}
+
+
+var r = cadenas(cadea: "que tal como estas que me cuentas que es de tu vida ", letra:"asss")
+
+print(r.sublen())
